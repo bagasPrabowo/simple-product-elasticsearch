@@ -21,7 +21,7 @@ const docTemplate = `{
     "host": "{{.Host}}",
     "basePath": "{{.BasePath}}",
     "paths": {
-        "/product": {
+        "/products": {
             "get": {
                 "description": "Retrieves a list of products with optional pagination and search keywords",
                 "consumes": [

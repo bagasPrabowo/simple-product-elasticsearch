@@ -18,7 +18,7 @@
     "host": "localhost:8080",
     "basePath": "/",
     "paths": {
-        "/product": {
+        "/products": {
             "get": {
                 "description": "Retrieves a list of products with optional pagination and search keywords",
                 "consumes": [

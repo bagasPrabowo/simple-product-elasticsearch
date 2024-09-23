@@ -23,7 +23,7 @@ info:
   title: Elasticsearch Example
   version: "1.0"
 paths:
-  /product:
+  /products:
     get:
       consumes:
       - application/json

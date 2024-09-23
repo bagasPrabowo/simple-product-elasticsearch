@@ -24,7 +24,7 @@ import (
 // @Param			offset	query	int		false	"Offset for pagination"
 // @Param			search	query	string	false	"Search keyword"
 // @Success		200		{array}	models.Product
-// @Router			/product [get]
+// @Router			/products [get]
 func GetProducts(cfg *config.Config, es *elasticsearch.Client) fiber.Handler {
 	return func(c fiber.Ctx) error {
 		limit, offset, search := c.Query("limit", "10"), c.Query("offset", "0"), c.Query("search")
